@@ -1,5 +1,8 @@
 <?php
 
+// Only report errors (change to E_ALL for debugging)
+error_reporting(E_ERROR);
+
 require_once("../dompdf_config.inc.php");
 
 if ( isset( $_POST["html"] ) ) {
